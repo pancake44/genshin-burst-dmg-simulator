@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/genshin_burst_dmg_simulator/static/css/main.f045ee6c.chunk.css",
-    "main.js": "/genshin_burst_dmg_simulator/static/js/main.4669c49e.chunk.js",
-    "main.js.map": "/genshin_burst_dmg_simulator/static/js/main.4669c49e.chunk.js.map",
-    "runtime-main.js": "/genshin_burst_dmg_simulator/static/js/runtime-main.01b909b6.js",
-    "runtime-main.js.map": "/genshin_burst_dmg_simulator/static/js/runtime-main.01b909b6.js.map",
+    "main.js": "/genshin_burst_dmg_simulator/static/js/main.f4c66bff.chunk.js",
+    "main.js.map": "/genshin_burst_dmg_simulator/static/js/main.f4c66bff.chunk.js.map",
+    "runtime-main.js": "/genshin_burst_dmg_simulator/static/js/runtime-main.ab8b8d4c.js",
+    "runtime-main.js.map": "/genshin_burst_dmg_simulator/static/js/runtime-main.ab8b8d4c.js.map",
     "static/css/2.a8abe2a7.chunk.css": "/genshin_burst_dmg_simulator/static/css/2.a8abe2a7.chunk.css",
-    "static/js/2.5c573152.chunk.js": "/genshin_burst_dmg_simulator/static/js/2.5c573152.chunk.js",
-    "static/js/2.5c573152.chunk.js.map": "/genshin_burst_dmg_simulator/static/js/2.5c573152.chunk.js.map",
-    "static/js/3.a3dc87ba.chunk.js": "/genshin_burst_dmg_simulator/static/js/3.a3dc87ba.chunk.js",
-    "static/js/3.a3dc87ba.chunk.js.map": "/genshin_burst_dmg_simulator/static/js/3.a3dc87ba.chunk.js.map",
+    "static/js/2.e58f0169.chunk.js": "/genshin_burst_dmg_simulator/static/js/2.e58f0169.chunk.js",
+    "static/js/2.e58f0169.chunk.js.map": "/genshin_burst_dmg_simulator/static/js/2.e58f0169.chunk.js.map",
+    "static/js/3.dad164d6.chunk.js": "/genshin_burst_dmg_simulator/static/js/3.dad164d6.chunk.js",
+    "static/js/3.dad164d6.chunk.js.map": "/genshin_burst_dmg_simulator/static/js/3.dad164d6.chunk.js.map",
     "index.html": "/genshin_burst_dmg_simulator/index.html",
     "static/css/2.a8abe2a7.chunk.css.map": "/genshin_burst_dmg_simulator/static/css/2.a8abe2a7.chunk.css.map",
     "static/css/main.f045ee6c.chunk.css.map": "/genshin_burst_dmg_simulator/static/css/main.f045ee6c.chunk.css.map",
-    "static/js/2.5c573152.chunk.js.LICENSE.txt": "/genshin_burst_dmg_simulator/static/js/2.5c573152.chunk.js.LICENSE.txt",
+    "static/js/2.e58f0169.chunk.js.LICENSE.txt": "/genshin_burst_dmg_simulator/static/js/2.e58f0169.chunk.js.LICENSE.txt",
     "static/media/Andrius.2c8c5de6.png": "/genshin_burst_dmg_simulator/static/media/Andrius.2c8c5de6.png",
     "static/media/Monster_Anemo_Hypostasis.f2d78aad.png": "/genshin_burst_dmg_simulator/static/media/Monster_Anemo_Hypostasis.f2d78aad.png",
     "static/media/Monster_Azhdaha.84609d2f.png": "/genshin_burst_dmg_simulator/static/media/Monster_Azhdaha.84609d2f.png",
@@ -67,10 +67,10 @@
     "static/media/zhongli.5a6d0725.png": "/genshin_burst_dmg_simulator/static/media/zhongli.5a6d0725.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.01b909b6.js",
+    "static/js/runtime-main.ab8b8d4c.js",
     "static/css/2.a8abe2a7.chunk.css",
-    "static/js/2.5c573152.chunk.js",
+    "static/js/2.e58f0169.chunk.js",
     "static/css/main.f045ee6c.chunk.css",
-    "static/js/main.4669c49e.chunk.js"
+    "static/js/main.f4c66bff.chunk.js"
   ]
 }
