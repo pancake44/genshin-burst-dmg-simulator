@@ -1,6 +1,7 @@
 # genshin-burst-dmg-simulator
+## DEMO: https://pancake44.github.io/genshin_burst_dmg_simulator/
 
-## Version 1.0
+### Version 1.0
 
 July 29, 2021
 
