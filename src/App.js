@@ -1,32 +1,31 @@
-import * as React from "react";
-import { Provider} from "./State.js";
 import './App.css';
-import ElmSel from './ElmSel';
+import React, { useState } from 'react'
+import Form from './Form.js';
+import Img from './Img.js';
 import images from './public/monsters/index.js';
-
+import HeaderBar from './HeaderBar.js';
 
 function getImg(){
-	var im;
-	var x = Math.floor(Math.random() * 11);
-	var arr = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k' ];
-	im = arr[x];
-
-	console.log(im);
-	return images[im];
+	var arr = ['a', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k' ];
+	return images[arr[Math.floor(Math.random() * 10)]];
 }
 
 function App() {
-  return (
-  	<Provider>
-    <div className="App">
-			<div className="column1">
-        		<img src={getImg()} alt="monster" style={{ maxWidth: '100%', height: 'auto'/*, marginLeft: '20px'*/}}/>
+
+	const [img, setImg] = useState(getImg());
+
+	return (
+    	<div className="App">
+			<HeaderBar />
+			<div className="Container">
+				<div className="Item">
+					<Img img={img}/>
+				</div>
+				<div className="Item">
+					<Form setImg={setImg}/>
+				</div>
 			</div>
-			<div className="column2" style={{textAlign: "center", minWidth: "50%"}}>
-				<ElmSel />
-			</div>
-	</div>
-	</Provider>
+   		</div>
   );
 }
 

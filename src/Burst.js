@@ -33,5 +33,7 @@ burst = [
 	{"name": "Xingqiu", "bdmg": 3415},//15s
 	{"name": "Xinyan", "bdmg": 715},//2s 4 hits 579phys + 4*68 pyro
 	{"name": "Yanfei", "bdmg": 310},
-	{"name": "Zhongli", "bdmg": 835}
+	{"name": "Zhongli", "bdmg": 835}, 
+	{"name": "Ayaka", "bdmg": 0}, 
+	{"name": "Kazuha", "bdmg": 0}
 ];
