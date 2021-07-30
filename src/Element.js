@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect } from 'react'
-import  images  from  './public/elements/index.js'
+import images  from  './public/elements/index.js'
 import FadeIn from 'react-fade-in';
 
 function Element(props) {
