@@ -45,15 +45,29 @@ function Numbers(props){
 
 	const showElemental = () => {
 		document.getElementById("emButton").style.display = "none";
+		document.getElementById("hideButton").style.display = "block";
+		document.getElementById("atk").style.display = "none";
+		document.getElementById("cd").style.display="none";
+		document.getElementById("dmg").style.display="none";
 		document.getElementById("elementOptions").style.display = "block";
 	};
+
+	const hideElemental = () => {
+		document.getElementById("emButton").style.display = "block";
+		document.getElementById("hideButton").style.display="none";
+		document.getElementById("atk").style.display = "block";
+		document.getElementById("cd").style.display="block";
+		document.getElementById("dmg").style.display="block";
+		document.getElementById("elementOptions").style.display = "none";
+	};
+
 
 
 	return(
 	<div>
 		<div style={{marginTop: "10vh"}}>
 		<FadeIn>
-			<div>
+			<div id="atk">
 				<div>
 					<h3 style={{display: "inline-block"}}>Attack</h3>
 					<input type="number" onChange={(e) => setAtkValue(e.target.value)} value={atk} min="1" max="5000"style={{display: "inline-block", marginLeft: "10px", width: "60px"}}/>
@@ -71,7 +85,7 @@ function Numbers(props){
 				</div>
 			</div>
 			<br />
-			<div>
+			<div id="cd">
 				<div>
 					<h3 style={{display: "inline-block"}}>Crit Damage</h3>
 					<input type="number" onChange={(e) => setCdValue(e.target.value)} value={cd} min="50" max="350"style={{display: "inline-block", marginLeft: "10px", width: "60px"}}/>
@@ -159,6 +173,10 @@ function Numbers(props){
 				</div>
 			</div>
 			</FadeIn>
+		</div>
+		<div id="hideButton" style={{display: "none"}}>
+			<br /><br />
+			<AwesomeButton type="primary" onPress={() => {hideElemental()}}>Hide Reaction Options</AwesomeButton>
 		</div>
 		<div>
 			<br /><br />
