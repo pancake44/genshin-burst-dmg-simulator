@@ -42,10 +42,8 @@ function Character(props){
 
 	const forward = e => {
 		if(!notReady.includes(e.target.value)){
-			var cha = e.target.value;
-			props.setCharacter(cha);
-			cha = cha.replace(/ /g,"_");
-			props.setImg(images[cha.toLowerCase()]);
+			props.setCharacter(e.target.value);
+			props.setImg(images[e.target.value.toLowerCase()]);
 			props.nextPage();
 		}
 	};
